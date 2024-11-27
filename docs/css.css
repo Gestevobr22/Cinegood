@@ -1,0 +1,258 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #171717;
+    margin: 0;
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Estrutura Principal */
+main {
+    min-height: 90vh;
+}
+
+/* Header */
+header {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo-imagem {
+    width: 70px;
+    height: 70px;
+    margin-left: 20px;
+}
+
+.sena-cine {
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 20px;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    margin-right: 20px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    position: relative;
+}
+
+.menu a:hover::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 2px;
+    background: white;
+    transition: 0.3s;
+}
+
+.menu a::after {
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s;
+}
+
+.menu a:hover::after {
+    transform: scaleX(1);
+}
+
+/* Carrossel */
+.slider {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slides {
+    display: flex;
+    width: 400%;
+    transition: transform 1s ease-in-out;
+}
+
+.slide {
+    flex: 1;
+    text-align: center;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+}
+
+.manual-navigation {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+}
+
+.manual-btn {
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+    background: none;
+    transition: background 0.3s;
+}
+
+.manual-btn:hover {
+    background: white;
+}
+
+/* Cards */
+.card {
+    margin: 20px auto;
+    width: 320px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.card .poster img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.card:hover .poster img {
+    transform: scale(1.1);
+}
+
+.card .details {
+    padding: 10px;
+    background: #121212;
+    color: white;
+    text-align: center;
+}
+
+.card .details h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.card .details .tags span {
+    display: inline-block;
+    background: #333;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+/* Footer */
+footer {
+    background: #121212;
+    color: white;
+    padding: 20px;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.footer-content h4 {
+    margin-bottom: 10px;
+}
+
+.footer-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-content li a {
+    color: #aaa;
+    text-decoration: none;
+}
+
+.footer-content li a:hover {
+    color: white;
+}
+
+/* Responsividade */
+@media screen and (max-width: 1024px) {
+    header {
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    .menu {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .logo-imagem {
+        width: 50px;
+        height: 50px;
+    }
+
+    .sena-cine {
+        font-size: 1.2rem;
+    }
+
+    .slider {
+        max-width: 600px;
+        height: 300px;
+    }
+
+    .footer-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .slider {
+        max-width: 100%;
+        height: 250px;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .slider {
+        height: 200px;
+    }
+}
