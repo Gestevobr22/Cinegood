@@ -1,0 +1,557 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: #171717;
+}
+main{
+    height: 100vh;
+}
+header{
+    width: 100%;
+    background-color: black;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: 130px;
+    align-items: center;
+    padding: 20px 0;
+}
+.logo-imagem{
+    position: relative;
+    height: 60%;
+    width: 60%;
+    top: 28px;
+    left: 90px;
+}
+.prog{
+    position: relative;
+    color: white;
+    left: 440px;
+    top: -15px;
+}
+.filmes{
+    position: relative;
+    color: white;
+    left: 800px;
+    top: -35px;
+}
+.comidas{
+    position: relative;
+    color: white;
+    left: 1100px;
+    top: -55px;
+}
+.cadastro{
+    position: relative;
+    color: white;
+    left: 1400px;
+    top: -75px;
+}
+.dead{
+    position: relative;
+    left: 320px;
+}
+.footer{
+    background-color: #000000;
+    position: absolute;
+    height: 130px;
+    width: 100%;
+    top: 1274px;
+}
+.dead-sena{
+    position: relative;
+    left: 250px;
+    top: -70px;
+}
+.topico{
+    position: relative;
+    color: white;
+    left: 600px;
+    top: -290px;
+    font-size: 45px;
+    user-select: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.loca{
+    position: relative;
+    color: white;
+    left: 610px;
+    top: -270px;
+}
+.loc{
+    position: relative;
+    left: 1130px ;
+    top: -298px;
+    width: 30px;
+
+}
+.mapa{
+    position: relative;
+    color: rgb(255, 255, 255);
+    left: 1170px;
+    top: -323px;
+
+}
+.sessoes{
+    position: relative;
+    color: rgb(255, 255, 255);
+    left: 620px;
+    top: -98px;
+    font-size: 20px;
+}
+.barra{
+    position: relative;
+    height: 3px;
+    width: 600px;
+    left: 340px;
+    top: -90px;
+    background-color: rgb(1, 39, 255);
+}
+.barra-2{
+    position: relative;
+    height: 3px;
+    width: 600px;
+    left: 943px;
+    top: -93px;
+    background-color: rgb(1, 39, 255);
+}
+.detal{
+    position: relative;
+    color: white;
+    left: 1200px;
+    top: -122px;
+    font-size: 18px;
+}
+.hora{
+    position: relative;
+    height: 70px;
+    margin-left: 340px;
+    border-radius: 10px;
+    width: 1200px;
+    background-color: darkblue;
+}
+.dezenove{
+    position: relative;
+    color: white;
+    left: 380px;
+    top: -50px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.segunda{
+    position: relative;
+    color: white;
+    left: 385px;
+    top: -50px;
+}
+.segunda-2{
+    position: relative;
+    color: white;
+    left: 703px;
+    top: -92px;
+}
+.dezenove-2{
+    position: relative;
+    color: white;
+    left: 689px;
+    top: -92px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.dezenove-3{
+    position: relative;
+    color: white;
+    left: 950px;
+    top: -134px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.segunda-3{
+    position: relative;
+    color: white;
+    left: 960px;
+    top: -132px;
+}
+.segunda-4{
+    position: relative;
+    color: white;
+    left: 1200px;
+    top: -174px;
+}
+.dezenove-4{
+    position: relative;
+    color: white;
+    left: 1190px;
+    top: -175px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.dezenove-5{
+    position: relative;
+    color: white;
+    left: 1400px;
+    top: -216px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.segunda-5{
+    position: relative;
+    color: white;
+    left: 1416px;
+    top: -214px;
+}
+.borda{
+    width: 40%;
+    height: 36%;
+    background: rgb(80 80 80);
+    position: relative;
+    left: 10px;
+    top: 20px;
+    border-radius: 10px;
+    
+}
+#barbie{
+    position: relative;
+    left: 10px;
+    top: 6px;
+}
+.barbie-text{
+    position: relative;
+    color: white;
+    left: 210px;
+    top: -260px;
+}
+.hora-barbie{
+    position: relative;
+    color: white;
+    left: 215px;
+    top: -240px;
+    font-size: 14px;
+    border-bottom: solid 1px rgb(255, 255, 255);
+    width: 540px;
+}
+.assento{
+    position: relative;
+    left: 510px;
+    top: -278px;
+    width: 30px;
+}
+.assentos{
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 545px;
+    top: -304px;
+    font-size: 16px;
+}
+.pipoca{
+    position: relative;
+    left: 123px;
+    top: -80px;
+    width: 35px;
+}
+.porcentagem{
+    position: relative;
+    top: -108px;
+    left: 160px;
+    color: white;
+    font-size: 15px;
+}
+.tomate{
+    position: relative;
+    top: -140px;
+    width: 40px;
+    left: 12px;
+}
+.porcento-2{
+    position: relative;
+    top: -170px;
+    left: 54px;
+    color: white;
+    font-size: 15px;
+}
+.moeda{
+    color: #171717;
+    position: relative;
+    left: 640px;
+    top: -450px;
+    height: 39px;
+}
+.preco{
+    color: rgb(255, 255, 255);
+    left: 680px;
+    top: -481px;
+    position: relative;
+    font-size: 15px;
+
+}
+.preco-2{
+    color: rgb(255, 255, 255);
+    left: 680px;
+    top: -486px;
+    position: relative;
+    font-size: 15px;
+}
+.moeda-2{
+    position: relative;
+    left: 640px;
+    top: -457px;
+    height: 39px;
+}
+.moeda-3{
+    position: relative;
+    left: 640px;
+    top: -457px;
+    height: 39px;
+}
+.preco-3{
+    color: rgb(255, 255, 255);
+    left: 680px;
+    top: -486px;
+    position: relative;
+    font-size: 15px;
+}
+.moeda-4{
+    position: relative;
+    left: 640px;
+    top: -457px;
+    height: 39px;
+}
+.preco-4{
+    color: rgb(255, 255, 255);
+    left: 680px;
+    top: -486px;
+    position: relative;
+    font-size: 15px;
+}
+.moeda-5{
+    position: relative;
+    left: 640px;
+    top: -457px;
+    height: 39px;
+}
+.preco-5{
+    color: rgb(255, 255, 255);
+    left: 680px;
+    top: -486px;
+    position: relative;
+    font-size: 15px;
+}
+.moeda-6{
+    position: relative;
+    left: 640px;
+    top: -457px;
+    height: 39px;
+}
+.preco-6{
+    color: rgb(255, 255, 255);
+    left: 680px;
+    top: -486px;
+    position: relative;
+    font-size: 15px;
+}
+.dublado{
+    width: 80px;
+    height: 20px;
+    color: black;
+    background-color: yellow;
+    text-align: center;
+    border-radius: 15px;
+    position: relative;
+    left: 213px;
+    top: 126px;
+    user-select: none;
+}
+.btn{
+    padding: 10px 8px;
+    width: 80px;
+    color: white;
+    background-color: rgb(0, 17, 110);
+    border-radius: 1px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    transition: 1s;
+    position: relative;
+    top: -400px;
+    left: 214px;
+}
+.btn:hover{
+    background-color:  #002fff;
+}
+.borda-2{
+    width: 40%;
+    height: 36%;
+    background: rgb(80 80 80);
+    position: relative;
+    left: 10px;
+    top: 30px;
+    border-radius: 10px;
+}
+.pipoca-2{
+    position: relative;
+    left: 123px;
+    top: -85px;
+    width: 35px;
+}
+.porcentagem-2{
+    position: relative;
+    top: -112px;
+    left: 160px;
+    color: white;
+    font-size: 15px;
+}
+.porcento-3{
+    position: relative;
+    top: -178px;
+    left: 60px;
+    color: white;
+    font-size: 15px;
+}
+.tomate-2{
+    position: relative;
+    top: -146px;
+    width: 45px;
+    left: 12px;
+}
+.dublado-2{
+    width: 80px;
+    height: 20px;
+    color: black;
+    background-color: yellow;
+    text-align: center;
+    border-radius: 15px;
+    position: relative;
+    left: 213px;
+    top: 136px;
+    user-select: none;
+}
+.borda-3{
+    width: 40%;
+    height: 36%;
+    background: rgb(80 80 80);
+    position: relative;
+    left: 10px;
+    top: 55px;
+    border-radius: 10px;
+}
+.borda-4{
+    width: 40%;
+    height: 36%;
+    background: rgb(80 80 80);
+    position: relative;
+    left: 1120px;
+    margin-top: -987px;
+    border-radius: 10px;
+}
+.borda-5{
+    width: 40%;
+    height: 36%;
+    background: rgb(80 80 80);
+    position: relative;
+    margin-left: 1120px;
+    margin-top: 11px;
+    border-radius: 10px;
+}
+.borda-6{
+    width: 40%;
+    height: 36%;
+    background: rgb(80 80 80);
+    position: relative;
+    margin-left: 1120px;
+    margin-top: 28px;
+    border-radius: 10px;
+}
+
+.sena{
+    position: relative;
+    color: white;
+    left: 500px;
+}
+.link{
+    color: rgb(127, 5, 241);
+    text-decoration: none;
+    margin-left: 512px;
+    margin-top: 10px;
+}
+.footer{
+    width: 100%;
+    background-color: black;
+    position: relative;
+    height: 180px;
+}
+.sena-2{
+    position: relative;
+    width: 140px;
+    top: 1120px;
+    left: 130px;
+}
+.senacine{
+    position: relative;
+    color: white;
+    top: 1020px;
+    left: 500px;
+}
+.sobre{
+    position: relative;
+    color: white;
+    top: 1040px;
+    left: 515px;
+    font-size: 15px;
+    text-decoration: none;
+}
+.locc{
+    position: relative;
+    color: white;
+    top: 1002px;
+    left: 508px;
+    font-size: 15px;
+}
+.senacine-2{
+    position: relative;
+    color: white;
+    top: 962px;
+    left: 900px;
+}
+.comidas-2{
+    position: relative;
+    color: white;
+    top: 960px;
+    left: 919px;
+}
+.filmes-2{
+    position: relative;
+    color: white;
+    top: 963px;
+    left: 927px;
+}
+.senacine-3{
+    position: relative;
+    color: white;
+    top: 907px;
+    left: 1250px;
+}
+.insta{
+    position: relative;
+    color: white;
+    top: 906px;
+    left: 1290px;
+}
+.face{
+    position: relative;
+    color: white;
+    top: 906px;
+    left: 1290px;
+}
+.tw{
+    position: relative;
+    color: white;
+    top: 906px;
+    left: 1297px;
+}

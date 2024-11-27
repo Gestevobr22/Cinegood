@@ -1,0 +1,217 @@
+body{
+    background-color: #171717;
+}
+header{
+   position: relative;
+   top: -8px;
+   left: -8px;
+   width: 110%;
+   height: 140px;
+   background-color: black;
+}    
+.senacine{
+    position: relative;
+    width: 130px;
+    top: 13px;
+    left: 200px;
+}
+.prog{
+    position: relative;
+    color: white;
+    top: -70px;
+    left: 500px;
+}
+.filmes{
+    position: relative;
+    color: white;
+    top: -110px;
+    left: 900px;
+}
+.comidas{
+    position: relative;
+    color: white;
+    top: -150px;
+    left: 1200px;
+}
+.cadas{
+    position: relative;
+    color: white;
+    top: -190px;
+    left: 1500px;
+}
+.freira{
+    position: relative;
+    width: 130px;
+    left: 260px;
+    top: 70px;
+
+}
+.info{ 
+    position: relative;
+    color: white;
+    font-size: 20px;
+    left: 420px;
+    top: -120px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.loca{
+    position: relative;
+    width: 20px;
+    left: 400px;
+    top: -80px;
+}
+.info-2{
+    position: relative;
+    color: white;
+    left: 420px;
+    top: -126px;
+    left: 430px;
+}
+.info-3{
+    position: relative;
+    color: white;
+    left: 420px;
+    top: -126px;
+    left: 430px;
+    font-size: 9px;
+    top: -130px;
+}
+.agenda{
+    position: relative;
+    width: 20px;
+    left: 400px;
+    top: -110px;
+}
+.segunda{
+    position: relative;
+    color: white;
+    font-size: 12px;
+    top: -129px;
+    left: 430px;
+}
+.suspense{
+    position: relative;
+    left: 340px;
+    top: -110px;
+    background-color: orange;
+}
+.terror{
+    position: relative;
+    left: 480px;
+    top: -110px;
+    background-color: orange;
+}
+.assentos{
+    position: relative;
+    color: white;
+    font-size: 14px;
+    left: 680px;
+    top: 20px;
+}
+.barra{
+    position: relative;
+    background-color: white;
+    width: 7px;
+    height: 520px;
+    top: -320px;
+    left: 600px;
+    opacity: 5%;
+}
+.um{
+    position: relative;
+    left: 784px;
+    top: -707px;
+    color: white;
+}
+.dois{
+    position: relative;
+    left: 700px;
+    top: -739px;
+    color: white;
+}
+.tres{
+    position: relative;
+    left: 899px;
+    top: -719px;
+    color: white;
+}
+.quatro{
+    position: relative;
+    left: 700px;
+    top: -760px;
+    color: white;
+}
+.cinco{
+    position: relative;
+    left: 900px;
+    top: -743px;
+    color: white;
+}
+.poltrona{
+    position: relative;
+    width: 14px;
+    top: -830px;
+    left: 720px;
+    
+}
+.poltrona-2{
+    position: relative;
+    width: 14px;
+    top: -789px;
+    left: 920px;
+}
+.poltrona-3{
+    position: relative;
+    width: 14px;
+    top: -759px;
+    left: 800px;
+}
+.poltrona-4{
+    position: relative;
+    width: 14px;
+    top: -826px;
+    left: 720px;
+}
+.poltrona-5{
+    position: relative;
+    width: 14px;
+    top: -903px;
+    left: 920px;
+}
+.tela{
+    position: relative;
+    background-color: white;
+    height: 40px;
+    width: 20%;
+    top: -690px;
+    left: 680px;
+}
+.tela-2{
+    position: relative;
+    top: -720px;
+    left: 840px;
+    color: black;
+}
+.circulo{
+    position: relative;
+    top: -640px;
+    left: 650px;
+    width: 20px;
+}
+.disponivel{
+    position: relative;
+    color: white;
+    top:-662px ;
+    left: 680px;
+}
+.ocupado{
+    position: relative;
+    top: -640px;
+    left: 650px;
+    width: 20px;
+}
+.reservar{
+    position: relative;
+    left: 900px;
+    top: -680px;
+}
