@@ -1,7 +1,3 @@
-Ótimo! Aqui está uma sugestão para o seu README:
-
-markdown
-Copiar código
 # JKG - Gestão Financeira  
 
 Bem-vindo ao repositório do **JKG - Gestão Financeira**, um site projetado para ajudar usuários a gerenciar suas finanças pessoais de forma eficiente.  
