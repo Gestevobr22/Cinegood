@@ -15,8 +15,8 @@ O JKG - Gestão Financeira oferece funcionalidades essenciais para controle fina
 ## 🚀 Tecnologias Utilizadas  
 Este projeto foi desenvolvido utilizando:  
 - **HTML5** e **CSS3**  
-- **JavaScript** (se aplicável, especifique bibliotecas)  
-- Back-end (se aplicável, informe as tecnologias)  
+- **JavaScript** 
+- Back-end 
 
 ## 📦 Instalação  
 1. Clone este repositório:  
