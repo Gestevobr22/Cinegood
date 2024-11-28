@@ -32,7 +32,7 @@ Abra o arquivo index.html no seu navegador.
 Contribuições são bem-vindas!
 
 
-📌 Status do Projeto
+## 📌 Status do Projeto
 🚧 Em desenvolvimento.
 
 
